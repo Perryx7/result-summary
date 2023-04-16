@@ -178,3 +178,14 @@ input:hover{
 .div2{
     display: flex;
 }
+@media screen  and (max-width:1140px){
+    .bloc{
+        display:block;
+        position :relative;
+        left: 20px;
+    }
+    .bloc2{
+        position :relative;
+        left: 10px;
+    }
+}
