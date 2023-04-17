@@ -180,12 +180,11 @@ input:hover{
 }
 @media screen  and (max-width:1140px){
     .bloc{
-        display:block;
-        position :relative;
-        left: 20px;
+        display:flex;
+        flex-direction:column;    
     }
+    .bloc1{  
+      width: 100%;}
     .bloc2{
-        position :relative;
-        left: 10px;
-    }
+    margin-left: 10px;}
 }
